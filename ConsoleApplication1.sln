@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_practice", "10_practice\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "functions_DZ", "functions_DZ\functions_DZ.vcxproj", "{14F4ABB8-BB50-44A7-B523-9DAE15C11BF4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dzsearch", "Dzsearch\Dzsearch.vcxproj", "{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{14F4ABB8-BB50-44A7-B523-9DAE15C11BF4}.Release|x64.Build.0 = Release|x64
 		{14F4ABB8-BB50-44A7-B523-9DAE15C11BF4}.Release|x86.ActiveCfg = Release|Win32
 		{14F4ABB8-BB50-44A7-B523-9DAE15C11BF4}.Release|x86.Build.0 = Release|Win32
+		{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}.Debug|x64.ActiveCfg = Debug|x64
+		{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}.Debug|x64.Build.0 = Debug|x64
+		{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}.Debug|x86.Build.0 = Debug|Win32
+		{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}.Release|x64.ActiveCfg = Release|x64
+		{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}.Release|x64.Build.0 = Release|x64
+		{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}.Release|x86.ActiveCfg = Release|Win32
+		{4B4CF8C8-A1BF-4823-91C0-B94443A8F6C9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
