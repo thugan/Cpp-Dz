@@ -11,7 +11,7 @@ public:
         minutes = 0;
         seconds = 0;
     }
-    Time(int seconds) {
+    explicit Time(int seconds) {
         hours = seconds / 3600;
         minutes = (seconds / 60) % 60;
         this->seconds = seconds % 60;
@@ -84,6 +84,35 @@ public:
     {
         Time res(this->hours / other.hours, this->minutes / other.minutes, this->seconds / other.seconds);
         return res;
+    }
+    Time operator /(const Time& other)
+    {
+        Time res(this->hours / other.hours, this->minutes / other.minutes, this->seconds / other.seconds);
+        return res;
+    }
+    bool operator > (const Time& other)
+    {
+        return  ((this->hours / other.hours, this->minutes) > (other.minutes, this->seconds / other.seconds));
+    }
+    bool operator < (const Time& other)
+    {
+        return  ((this->hours / other.hours, this->minutes) < (other.minutes, this->seconds / other.seconds));
+    }
+    bool operator <= (const Time& other)
+    {
+        return  ((this->hours / other.hours, this->minutes) <= (other.minutes, this->seconds / other.seconds));
+    }
+    bool operator >= (const Time& other)
+    {
+        return  ((this->hours / other.hours, this->minutes) >= (other.minutes, this->seconds / other.seconds));
+    }
+    bool operator == (const Time& other)
+    {
+        return  ((this->hours / other.hours, this->minutes) >= (other.minutes, this->seconds / other.seconds));
+    }
+    bool operator != (const Time& other)
+    {
+        return  ((this->hours / other.hours, this->minutes) >= (other.minutes, this->seconds / other.seconds));
     }
 };
 int main()
