@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "time_convertor", "time_conv
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "phonebook", "phonebook\phonebook.vcxproj", "{B421B433-A0BA-4E69-9D7B-966B55CD282F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "explicitconst", "explicitconst\explicitconst.vcxproj", "{17726201-C093-4184-A23E-964F287460A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{B421B433-A0BA-4E69-9D7B-966B55CD282F}.Release|x64.Build.0 = Release|x64
 		{B421B433-A0BA-4E69-9D7B-966B55CD282F}.Release|x86.ActiveCfg = Release|Win32
 		{B421B433-A0BA-4E69-9D7B-966B55CD282F}.Release|x86.Build.0 = Release|Win32
+		{17726201-C093-4184-A23E-964F287460A8}.Debug|x64.ActiveCfg = Debug|x64
+		{17726201-C093-4184-A23E-964F287460A8}.Debug|x64.Build.0 = Debug|x64
+		{17726201-C093-4184-A23E-964F287460A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{17726201-C093-4184-A23E-964F287460A8}.Debug|x86.Build.0 = Debug|Win32
+		{17726201-C093-4184-A23E-964F287460A8}.Release|x64.ActiveCfg = Release|x64
+		{17726201-C093-4184-A23E-964F287460A8}.Release|x64.Build.0 = Release|x64
+		{17726201-C093-4184-A23E-964F287460A8}.Release|x86.ActiveCfg = Release|Win32
+		{17726201-C093-4184-A23E-964F287460A8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
