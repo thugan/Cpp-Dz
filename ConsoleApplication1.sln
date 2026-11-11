@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trainpractice", "trainpract
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DzStudentXVisa", "DzStudentXVisa\DzStudentXVisa.vcxproj", "{F391099B-34B0-49A8-B3A2-A1C8DB888069}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shape", "Shape\Shape.vcxproj", "{B6B62E20-326C-400F-925E-C3A98F10B935}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -311,6 +313,14 @@ Global
 		{F391099B-34B0-49A8-B3A2-A1C8DB888069}.Release|x64.Build.0 = Release|x64
 		{F391099B-34B0-49A8-B3A2-A1C8DB888069}.Release|x86.ActiveCfg = Release|Win32
 		{F391099B-34B0-49A8-B3A2-A1C8DB888069}.Release|x86.Build.0 = Release|Win32
+		{B6B62E20-326C-400F-925E-C3A98F10B935}.Debug|x64.ActiveCfg = Debug|x64
+		{B6B62E20-326C-400F-925E-C3A98F10B935}.Debug|x64.Build.0 = Debug|x64
+		{B6B62E20-326C-400F-925E-C3A98F10B935}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6B62E20-326C-400F-925E-C3A98F10B935}.Debug|x86.Build.0 = Debug|Win32
+		{B6B62E20-326C-400F-925E-C3A98F10B935}.Release|x64.ActiveCfg = Release|x64
+		{B6B62E20-326C-400F-925E-C3A98F10B935}.Release|x64.Build.0 = Release|x64
+		{B6B62E20-326C-400F-925E-C3A98F10B935}.Release|x86.ActiveCfg = Release|Win32
+		{B6B62E20-326C-400F-925E-C3A98F10B935}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
