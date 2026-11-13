@@ -23,60 +23,54 @@ public:
 class President : public Employer
 {
 private:
-    string company;
-    int numberOfEmployees;
+    string strategicDirection;
 public:
-    President() : company("no company"), numberOfEmployees(0), Employer() {}
-    President(string n, double s, string c, int employees)
-        : company(c), numberOfEmployees(employees), Employer(n, s) {
+    President() : strategicDirection("no strategic direction"), Employer() {}
+    President(string n, double s, string direction)
+        : strategicDirection(direction), Employer(n, s) {
     }
 
     void Print()const override
     {
         cout << "----------------------President-----------------" << endl;
         Employer::PrintCommonInfo();
-        cout << "Company : " << company << endl;
-        cout << "Number of employees : " << numberOfEmployees << endl;
+        cout << "Strategic direction : " << strategicDirection << endl;
     }
 };
 
 class Manager : public Employer
 {
 private:
-    string department;
-    int numberOfEmployees;
+    int subordinateCount;
 public:
-    Manager() : department("no department"), numberOfEmployees(0), Employer() {}
-    Manager(string n, double s, string d, int employees)
-        : department(d), numberOfEmployees(employees), Employer(n, s) {
+    Manager() : subordinateCount(0), Employer() {}
+    Manager(string n, double s, int employees)
+        : subordinateCount(employees), Employer(n, s) {
     }
 
     void Print()const override
     {
         cout << "----------------------Manager-----------------" << endl;
         Employer::PrintCommonInfo();
-        cout << "Department : " << department << endl;
-        cout << "Managed employees : " << numberOfEmployees << endl;
+        cout << "Number of subordinate employees : " << subordinateCount << endl;
     }
 };
 
 class Worker : public Employer
 {
 private:
-    string profession;
-    int experience;
+    int qualificationLevel;
 public:
-    Worker() : profession("no profession"), experience(0), Employer() {}
-    Worker(string n, double s, string p, int e)
-        : profession(p), experience(e), Employer(n, s) {
+    Worker() : qualificationLevel(1), Employer() {}
+    Worker(string n, double s, int level)
+        : qualificationLevel(this->qualificationLevel), Employer(n, s) {
     }
 
     void Print()const override
     {
         cout << "----------------------Worker-----------------" << endl;
         Employer::PrintCommonInfo();
-        cout << "Profession : " << profession << endl;
-        cout << "Experience : " << experience << " years" << endl;
+        cout << "Qualification level : " << qualificationLevel << " (1-6)" << endl;
     }
 };
 
@@ -296,9 +290,11 @@ void TestVehicle(Vehicle& vehicle, double distance, int passengers, double cargo
 int main()
 {
 
-    President president("Oleg Illich", 120000, "IT Company", 250);
-    Manager manager("Andrii Petrenko", 65000, "Development", 12);
-    Worker worker("Maksym Bondar", 35000, "Software developer", 4);
+
+    President president("Petruk Olegovuch", 120000, "Digital transformation and company growth");
+    Manager manager("Andrii Petrenko", 65000, 12);
+    Worker worker("Maksym Bondar", 35000, 4);
+
     TestEmployer(president);
     TestEmployer(manager);
     TestEmployer(worker);
