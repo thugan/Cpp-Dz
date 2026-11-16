@@ -267,7 +267,7 @@ int main()
         if (file.is_open())
             shapes[i]->Save(file);
         cout << endl;
-    }
+    } 
 
     if (file.is_open())
     {
