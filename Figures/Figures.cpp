@@ -259,7 +259,7 @@ int main()
     if (!file.is_open())
     {
         cout << "Error!!" << endl;
-    }
+    } 
 
     for (int i = 0; i < 3; i++)
     {
