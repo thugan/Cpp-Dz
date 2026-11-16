@@ -1,0 +1,13 @@
+Type : Line
+Start point : (5, 5)
+End point : (25, 5)
+
+Type : Rectangle
+Top left point : (5, 15)
+Width : 20
+Length : 6
+
+Type : Polyline
+Number of points : 4
+Points : (5, 26) (12, 34) (20, 30) (28, 43) 
+

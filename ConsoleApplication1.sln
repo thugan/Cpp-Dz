@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmployerTasksAndVehicles", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LisiciLive", "LisiciLive\LisiciLive.vcxproj", "{F09957C3-FFD7-48BF-9AD4-897C0997237E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Figures", "Figures\Figures.vcxproj", "{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{F09957C3-FFD7-48BF-9AD4-897C0997237E}.Release|x64.Build.0 = Release|x64
 		{F09957C3-FFD7-48BF-9AD4-897C0997237E}.Release|x86.ActiveCfg = Release|Win32
 		{F09957C3-FFD7-48BF-9AD4-897C0997237E}.Release|x86.Build.0 = Release|Win32
+		{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}.Debug|x64.ActiveCfg = Debug|x64
+		{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}.Debug|x64.Build.0 = Debug|x64
+		{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}.Debug|x86.Build.0 = Debug|Win32
+		{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}.Release|x64.ActiveCfg = Release|x64
+		{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}.Release|x64.Build.0 = Release|x64
+		{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}.Release|x86.ActiveCfg = Release|Win32
+		{F2D6BE84-E6A6-4C07-B1FE-00C5A5D6668B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
