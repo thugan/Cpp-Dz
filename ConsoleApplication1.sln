@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Figures", "Figures\Figures.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAR_task", "CAR_task\CAR_task.vcxproj", "{58085D83-6F6A-43C5-93BC-40CA94B475D4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExeptionsStack", "ExeptionsStack\ExeptionsStack.vcxproj", "{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -361,6 +363,14 @@ Global
 		{58085D83-6F6A-43C5-93BC-40CA94B475D4}.Release|x64.Build.0 = Release|x64
 		{58085D83-6F6A-43C5-93BC-40CA94B475D4}.Release|x86.ActiveCfg = Release|Win32
 		{58085D83-6F6A-43C5-93BC-40CA94B475D4}.Release|x86.Build.0 = Release|Win32
+		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Debug|x64.ActiveCfg = Debug|x64
+		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Debug|x64.Build.0 = Debug|x64
+		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Debug|x86.ActiveCfg = Debug|Win32
+		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Debug|x86.Build.0 = Debug|Win32
+		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Release|x64.ActiveCfg = Release|x64
+		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Release|x64.Build.0 = Release|x64
+		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Release|x86.ActiveCfg = Release|Win32
+		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
