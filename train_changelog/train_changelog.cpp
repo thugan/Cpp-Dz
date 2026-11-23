@@ -3,7 +3,7 @@
 #include <fstream>
 #include <string>
 using namespace std;
-
+ 
 struct Time
 {
     short h;
