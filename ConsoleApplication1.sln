@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CAR_task", "CAR_task\CAR_ta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExeptionsStack", "ExeptionsStack\ExeptionsStack.vcxproj", "{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "train_changelog", "train_changelog\train_changelog.vcxproj", "{8A8B38A1-C9D3-4437-A990-6756F28C6E15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -371,6 +373,14 @@ Global
 		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Release|x64.Build.0 = Release|x64
 		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Release|x86.ActiveCfg = Release|Win32
 		{397AEE47-9AFD-4C9A-BCD9-7131AC2B522D}.Release|x86.Build.0 = Release|Win32
+		{8A8B38A1-C9D3-4437-A990-6756F28C6E15}.Debug|x64.ActiveCfg = Debug|x64
+		{8A8B38A1-C9D3-4437-A990-6756F28C6E15}.Debug|x64.Build.0 = Debug|x64
+		{8A8B38A1-C9D3-4437-A990-6756F28C6E15}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A8B38A1-C9D3-4437-A990-6756F28C6E15}.Debug|x86.Build.0 = Debug|Win32
+		{8A8B38A1-C9D3-4437-A990-6756F28C6E15}.Release|x64.ActiveCfg = Release|x64
+		{8A8B38A1-C9D3-4437-A990-6756F28C6E15}.Release|x64.Build.0 = Release|x64
+		{8A8B38A1-C9D3-4437-A990-6756F28C6E15}.Release|x86.ActiveCfg = Release|Win32
+		{8A8B38A1-C9D3-4437-A990-6756F28C6E15}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
