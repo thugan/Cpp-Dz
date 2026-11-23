@@ -1,6 +1,5 @@
 ﻿#include <iostream>
 #include <vector>
-#include <algorithm>
 #include <fstream>
 #include <string>
 using namespace std;
@@ -175,7 +174,18 @@ public:
 
     void SortByDepartureTime()
     {
-        sort(trains.begin(), trains.end());
+        for (int i = 0; i < trains.size() - 1; i++)
+        {
+            for (int j = i + 1; j < trains.size(); j++)
+            {
+                if (trains[j] < trains[i])
+                {
+                    Train temp = trains[i];
+                    trains[i] = trains[j];
+                    trains[j] = temp;
+                }
+            }
+        }
         cout << "Trains were sorted by departure time" << endl;
     }
 
@@ -230,27 +240,35 @@ public:
 int main()
 {
     Railway railway;
+
     railway.AddTrain(Train(101, Time(8, 30, 0), "Lviv"));
     railway.AddTrain(Train(205, Time(6, 15, 30), "Odesa"));
     railway.AddTrain(Train(312, Time(12, 45, 0), "Lviv"));
     railway.AddTrain(Train(410, Time(9, 10, 0), "Kharkiv"));
+
     railway.ShowAll();
+
     cout << endl;
     railway.ShowTrain(312);
     railway.ShowTrain(999);
+
     cout << endl;
     railway.EditDepartureTime(410, Time(5, 55, 0));
     railway.ShowTrain(410);
+
     cout << endl;
     railway.SortByDepartureTime();
     railway.ShowAll();
+
     cout << endl;
     railway.ShowByDestination("Lviv");
+
     string fileName = "trains.txt";
     if (railway.SaveToFile(fileName))
         cout << "Train list was saved to " << fileName << endl;
     else
         cout << "File cannot be opened for writing" << endl;
+
     Railway loadedRailway;
     if (loadedRailway.LoadFromFile(fileName))
     {
